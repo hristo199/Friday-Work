@@ -1,32 +1,20 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
-import { NotFoundComponent } from './not-found/not-found.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
+import { NotFoundComponent } from './partials/not-found/not-found.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { AboutComponent } from './about/about.component';
+import { BlogComponent } from './blog/blog.component';
+import { ContactComponent } from './contact/contact.component';
 
-const routes: Routes = [
-	{
-		path: '',
-		redirectTo: '/home',
-		pathMatch: 'full'
-	},
-	{
-		path: 'home',
-		component: AppComponent
-    },    
-    {
-		path: 'logon',
-		component: LoginComponent
-    },  
-    {
-		path: 'register',
-		component: RegisterComponent
-    },      
-	{
-		path: '**',
-		component: NotFoundComponent
-	}
+const routes: Routes =
+[
+{ path: '', redirectTo: '/home', pathMatch: 'full'},
+{ path: 'home', component: LandingPageComponent },
+{ path: 'about', component: AboutComponent },
+{ path: 'blog', component: BlogComponent },
+{ path: 'contact', component: ContactComponent },
+{ path: '**', component: LandingPageComponent }
 ];
 
 @NgModule({
