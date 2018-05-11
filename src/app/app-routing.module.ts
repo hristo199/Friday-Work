@@ -6,6 +6,8 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { AboutComponent } from './about/about.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
+import { ItalianFoodComponent } from './recepies/italian-food/italian-food.component';
+import { SpanishFoodComponent } from './recepies/spanish-food/spanish-food.component';
 
 const routes: Routes =
 [
@@ -14,6 +16,8 @@ const routes: Routes =
 { path: 'about', component: AboutComponent },
 { path: 'blog', component: BlogComponent },
 { path: 'contact', component: ContactComponent },
+{ path: 'italian', component: ItalianFoodComponent },
+{ path: 'italian', component: SpanishFoodComponent },
 { path: '**', component: LandingPageComponent }
 ];
 

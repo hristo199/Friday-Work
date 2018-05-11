@@ -11,6 +11,8 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { BlogComponent } from './blog/blog.component';
 import { BlogService } from './core/services/blog/blog.service';
+import { ItalianFoodComponent } from './recepies/italian-food/italian-food.component';
+import { SpanishFoodComponent } from './recepies/spanish-food/spanish-food.component';
 
 
 @NgModule({
@@ -22,6 +24,8 @@ import { BlogService } from './core/services/blog/blog.service';
     AboutComponent,
     ContactComponent,
     BlogComponent,
+    ItalianFoodComponent,
+    SpanishFoodComponent,
   ],
   imports: [
     BrowserModule,
