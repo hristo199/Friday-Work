@@ -11,8 +11,10 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { BlogComponent } from './blog/blog.component';
 import { BlogService } from './core/services/blog/blog.service';
-import { ItalianFoodComponent } from './recepies/italian-food/italian-food.component';
-import { SpanishFoodComponent } from './recepies/spanish-food/spanish-food.component';
+import { ItalianFoodsComponent } from './recipes/italian-foods/italian-foods.component';
+import { SpanishFoodsComponent } from './recipes/spanish-foods/spanish-foods.component';
+import { RecipeService } from './core/services/recipe/recipe.service';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -24,14 +26,15 @@ import { SpanishFoodComponent } from './recepies/spanish-food/spanish-food.compo
     AboutComponent,
     ContactComponent,
     BlogComponent,
-    ItalianFoodComponent,
-    SpanishFoodComponent,
+    ItalianFoodsComponent,
+    SpanishFoodsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [BlogService],
+  providers: [BlogService, RecipeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

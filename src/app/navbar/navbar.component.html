@@ -20,10 +20,10 @@
         <li class="nav-item dropdown">
           <a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">Recipies <b class="caret"></b></a>
           <ul class="dropdown-menu">					
-            <li><a href="#" class="dropdown-item">Italian-Food</a></li>
-            <li><a href="#" class="dropdown-item">Spanish-Food</a></li>
-            <li><a href="#" class="dropdown-item">Graphic Design</a></li>
-            <li><a href="#" class="dropdown-item">Digital Marketing</a></li>
+            <li><a routerLink="/italian" class="single-menu-element-link">Italian Foods</a></li>
+            <li><a routerLink="/spanish" class="single-menu-element-link">Spanish Foods</a></li>
+            <li><a href="#" class="dropdown-item">TODO...</a></li>
+            <li><a href="#" class="dropdown-item">CCB Specials</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -39,7 +39,7 @@
           <span class="input-group-addon"><i class="material-icons">&#xE8B6;</i></span>
         </div>
       </form>
-      <ul class="nav navbar-nav navbar-right ml-auto">
+      <ul *ngIf="isLogged" class="nav navbar-nav navbar-right ml-auto">
         <li class="nav-item"><a href="#" class="nav-link notifications"><i class="fa fa-bell-o"></i><span class="badge">1</span></a></li>
         <li class="nav-item"><a href="#" class="nav-link messages"><i class="fa fa-envelope-o"></i><span class="badge">10</span></a></li>
         <li class="nav-item dropdown">
@@ -55,6 +55,10 @@
             <li><a href="#" class="dropdown-item"><i class="material-icons">&#xE8AC;</i> Logout</a></li>
           </ul>
         </li>
+      </ul>
+      <ul *ngIf="!isLogged" class="nav navbar-nav navbar-right ml-auto">
+        <li><a routerLink="/login" class="single-menu-element-link">Login</a></li>
+        <li><a routerLink="/register" class="single-menu-element-link">Register</a></li>
       </ul>
     </div>
   </nav>

@@ -8,6 +8,7 @@ body{
     padding: 0 !important;
 }	
 .navbar {		
+    font-family: 'Merienda One', sans-serif;
     background: #fff;
     padding-left: 16px;
     padding-right: 16px;
@@ -26,7 +27,6 @@ body{
     color: #555;
     padding-left: 0;
     padding-right: 50px;
-    font-family: 'Merienda One', sans-serif;
 }
 .navbar .navbar-brand i {
     font-size: 20px;
