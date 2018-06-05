@@ -22,7 +22,7 @@ export class BlogService {
       },
       {
         Id: 'e4445009-3ca3-40af-aa97-abafc8727501',
-        Title: 'Why Americans are so fat?',
+        Title: 'Why Americans are obese?',
         Description: 'Eating burgers all the time is not the ultimate skinny problem solving...',
         Author: 'Narco',
         ImgSrc: './assets/images/americans.jpg'
