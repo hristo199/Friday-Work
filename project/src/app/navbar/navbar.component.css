@@ -9,7 +9,7 @@ body{
 }	
 .navbar {		
     font-family: 'Merienda One', sans-serif;
-    background: #fff;
+    background: #f443;
     padding-left: 16px;
     padding-right: 16px;
     border-bottom: 1px solid #d6d6d6;
@@ -24,7 +24,7 @@ body{
     margin-right: 10px;
 }
 .navbar .navbar-brand {
-    color: #555;
+    color: rgba(65, 3, 3, 0.699);
     padding-left: 0;
     padding-right: 50px;
 }
