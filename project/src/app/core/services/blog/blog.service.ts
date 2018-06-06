@@ -15,8 +15,8 @@ export class BlogService {
     const heroes: BlogViewModel[] = [
       {
         Id: 'bcfacd2f-4143-4717-8720-b00cd6e8e859',
-        Title: 'Eat wisely!',
-        Description: 'Somethimes it\'s good idea to go to bed hungry',
+        Title: 'Foods that you should eat before and after a workout',
+        Description: 'Diets are the most important thing of the workout proces.',
         Author: 'Mr. Nice',
         ImgSrc: './assets/images/sleep-hungry.jpg'
       },
