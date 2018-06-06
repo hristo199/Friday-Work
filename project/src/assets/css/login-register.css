@@ -1,6 +1,6 @@
 
 #viewLogin, #viewRegister {
-    font-family: 'Merienda One', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 section input{
@@ -12,7 +12,7 @@ input:focus {
 input[type="text"], input[type="email"], input[type="password"] {
     border: none;
     width: 100%;
-    font-size: 2em;
+    font-size: 1em;
     padding: 5px;
     margin: 5px;
     color: black;
