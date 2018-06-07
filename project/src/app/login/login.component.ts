@@ -11,7 +11,7 @@ import { LoginEntry } from './loginEntry.model';
 export class LoginComponent {
   reactiveForm: FormGroup;
   loginEntry = new LoginEntry();
-  formAlert = 'This field is required.';
+  formAlert = 'This field is required!';
 
   constructor(private formBuilder: FormBuilder) {
     this.reactiveForm = formBuilder.group({

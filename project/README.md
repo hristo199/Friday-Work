@@ -1,4 +1,4 @@
-# ChiefCookBook (Project created in class)
+# ChiefCookBook 
 
 Working demo can be found @ https://baiganio.github.io/PU-SPA/
 

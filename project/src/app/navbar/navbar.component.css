@@ -10,13 +10,13 @@ body{
 .navbar {		
     font-family: 'Merienda One', sans-serif;
     background: #f443;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-bottom: 1px solid #d6d6d6;
-    box-shadow: 0 0 4px rgba(0,0,0,.1);
+    box-shadow: 0 0 4px rgba(44, 35, 35, 0.1);
 }
 .nav-link img {
-    border-radius: 50%;
+    border-radius: 40%;
     width: 36px;
     height: 36px;
     margin: -8px 0;
